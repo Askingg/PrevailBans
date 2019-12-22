@@ -1,0 +1,25 @@
+#A replacement for %prefix% in any of the plugin's messages
+prefix: '&3&lPrevail&b&lBans&8 &l»&f'
+
+#set to kickScreen: {} to disable
+kickScreen:
+- '&3&m+&b&m---&3&m---&b&m---&3 Prevail&bBans &m---&3&m---&b&m---&3&m+'
+- '&cTempbanned'
+- '&fBanner&8 »&b %banner%'
+- '&fExpires&8 »&3 %expireDate%'
+- '&fTime&8 »&b %expireWait%'
+- '&fReason&8 »&b '
+- '&8 &8 »&c %reason%'
+- '&3&m+&b&m---&3&m---&b&m---&3 Prevail&bBans &m---&3&m---&b&m---&3&m+'
+
+#You can disablee any message relating to the plugin my simply setting it to '' or ""
+messages:
+  noPermission: '%prefix% Sorry, but you don''t have permission to do this.'
+  tempbanTimeLessthanZero: '%prefix% Sorry, but you cannot tempban a player for less than 1 second.'
+  tempban: '%prefix%&c%banned%&f was tempbanned by &a%banner%&f for &b%reason%&8 (&f%time%&8)'
+  usage:
+    tempban: '%prefix% Usage&b /TempBan <Player> <Duration> <TimeForm> <Reason>'
+  invalidInput:
+    player: '%prefix% Sorry, but &c%input%&f is an invalid player.'
+    integer: '%prefix% Sorry, but &c%input%&f is an invalid integer.'
+    timeform: '%prefix% Sorry, but &c%input%&f is an invalid timeform. Valid timeforms: &bs m h d w M'

@@ -1,0 +1,10 @@
+name: PrevailBans
+author: Askingg
+version: 1.0.0
+main: prevail.askingg.bans.main.Main
+description: Punish players.
+
+commands:
+  tempban:
+    aliases: [pbtempban]
+    description: Tempban a player.
